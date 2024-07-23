@@ -1,0 +1,83 @@
+.new-york-wrapper {
+  text-align: center;
+}
+
+.travel-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0px 20px;
+}
+
+.city-section-wrapper {
+  width: 85%;
+  margin: 0px auto;
+  padding-top: 35px;
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+  .city-section-wrapper {
+    width: 100%;
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1380px) {
+  .city-section-wrapper {
+    width: 95%;
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .city-section-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 150px;
+  }
+}
+
+
+.nearby-scenery-wrapper {
+  padding: 20px;
+}
+
+.scenery-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.scenery-card {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.333% - 20px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.scenery-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.scenery-description {
+  padding: 10px;
+  background: #fff;
+}
+
+.scenery-description h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.scenery-description p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
