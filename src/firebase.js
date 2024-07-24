@@ -4,7 +4,7 @@ import { getFirestore } from 'firebase/firestore';
 import { getStorage } from 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAwyt-6fa5zD1zZYszZyrJu4XRpYUirQsA",
+    apiKey: /*GOOGLE AUTH KEY*/,
     authDomain: "rentorsell-6b825.firebaseapp.com",
     projectId: "rentorsell-6b825",
     storageBucket: "rentorsell-6b825.appspot.com",
